@@ -3,7 +3,7 @@ import {Component} from "@angular/core";
 @Component({
   selector: "app",
   providers: [],
-  template: "Hallo {{name}}",
+  templateUrl: "src/app.component.html",
   directives: [],
 })
 export class App {
