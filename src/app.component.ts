@@ -7,5 +7,10 @@ import {Component} from "@angular/core";
   directives: [],
 })
 export class App {
-    private name: string = "Jan";
+  private jan: string = "jan";
+  private name: string = this.jan;
+
+  private clickTim() {
+    this.name = "tim";
+  }
 }
