@@ -1,4 +1,4 @@
-FROM node:5.12
+FROM angular-cli:1.0.0-beta.11-webpack.2
 
 ENV APP_DIR=/usr/src/app
 
