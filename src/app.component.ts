@@ -4,6 +4,7 @@ import {Component} from "@angular/core";
   selector: "app",
   providers: [],
   templateUrl: "src/app.component.html",
+  styleUrls: ["src/app.component.css"],
   directives: [],
 })
 export class App {
