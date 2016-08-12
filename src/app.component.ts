@@ -8,10 +8,10 @@ import {Component} from "@angular/core";
   directives: [],
 })
 export class App {
-  private jan: string = "jan";
+  private jan: string = "Jan";
   private name: string = this.jan;
 
   private clickTim() {
-    this.name = "tim";
+    this.name = "Tim";
   }
 }
