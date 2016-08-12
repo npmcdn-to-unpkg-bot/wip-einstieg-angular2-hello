@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  private jan: string = "Jan";
+  private name: string = this.jan;
+
+  private clickTim() {
+    this.name = "Tim";
+  }
 }
