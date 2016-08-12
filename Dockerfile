@@ -4,12 +4,11 @@ ENV APP_DIR=/usr/src/app
 
 RUN mkdir -p $APP_DIR
 COPY package.json $APP_DIR
-COPY typings.json $APP_DIR
+#COPY typings.json $APP_DIR
 
 WORKDIR $APP_DIR
 
 RUN npm install &&\
-	npm cache clean &&\
-    npm run postinstall
+	npm cache clean
 
-CMD ["npm", "start"]
+CMD ["ng", "serve", "--host", "0.0.0.0"]
