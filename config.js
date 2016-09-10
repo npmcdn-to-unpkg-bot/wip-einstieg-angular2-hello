@@ -8,10 +8,10 @@ System.config({
     // map tells the System loader where to look for things
     map: {
         app: "./src",
-        "@angular": "https://npmcdn.com/@angular", // sufficient if we didn"t pin the version
-        "rxjs": "https://npmcdn.com/rxjs@5.0.0-beta.6",
-        "ts": "https://npmcdn.com/plugin-typescript@4.0.10/lib/plugin.js",
-        "typescript": "https://npmcdn.com/typescript@1.9.0-dev.20160409/lib/typescript.js"
+        "@angular": "https://unpkg.com/@angular", // sufficient if we didn"t pin the version
+        "rxjs": "https://unpkg.com/rxjs@5.0.0-beta.6",
+        "ts": "https://unpkg.com/plugin-typescript@4.0.10/lib/plugin.js",
+        "typescript": "https://unpkg.com/typescript@1.9.0-dev.20160409/lib/typescript.js"
     },
     //packages defines our app package
     packages: {
